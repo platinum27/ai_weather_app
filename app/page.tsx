@@ -9,7 +9,7 @@ const Home = () => {
   return (
     <div className='min-h-screen bg-gradient-to-br from-[#394F68] to-[#18387E] 
     p-10 flex flex-col justify-center items-center'>
-        <Card>
+        <Card className='px-20'>
             <Text className='text-6xl font-bold text-center mb-10'>Weather AI</Text>
              {/* <h1>Let's build a GPT-4 App</h1> */}
              <Subtitle className='text-xl text-center'>
